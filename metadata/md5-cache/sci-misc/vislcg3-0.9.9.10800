@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	cmake-utils	430c386d85cec959d72640afd63ea91	flag-o-matic	c9602887773166fe300444712fc7ff98
+_md5_=a4e5f26785c4630a91c1f488009d019
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test
+EAPI=5
+DEPEND=dev-libs/icu dev-libs/boost sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Free parser and runner for Constraint Grammars
+LICENSE=GPL-3
+SRC_URI=http://beta.visl.sdu.dk/download/vislcg3/cg3-0.9.9~r10800.tar.bz2
+KEYWORDS=~x86 ~amd64
+HOMEPAGE=http://beta.visl.sdu.dk/
+RDEPEND=dev-libs/icu dev-libs/boost

@@ -1,0 +1,10 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	flag-o-matic	c9602887773166fe300444712fc7ff98	multilib	62927b3db3a589b0806255f3a002d5d3	subversion	c12bdf4fcc82f86ad89b14c8f76c4026	cmake-utils	430c386d85cec959d72640afd63ea91	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=37eee3b1243f841c9899a3d157fb2247
+SLOT=0
+DEFINED_PHASES=compile configure install preinst prepare test unpack
+EAPI=5
+DEPEND=dev-libs/icu dev-libs/boost sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DESCRIPTION=Free parser and runner for Constraint Grammars
+LICENSE=GPL-3
+HOMEPAGE=http://beta.visl.sdu.dk/
+RDEPEND=dev-libs/icu dev-libs/boost

@@ -1,0 +1,13 @@
+_eclasses_=
+_md5_=4cf6ccde47e0908eb5735f8b58d74db8
+SLOT=0
+DEFINED_PHASES=configure
+EAPI=5
+DEPEND=dev-libs/libxml2:2 virtual/pkgconfig
+DESCRIPTION=Toolbox for lexical processing, morphological analysis and generation of words
+LICENSE=GPL-2
+IUSE=static-libs
+SRC_URI=mirror://sourceforge/apertium/lttoolbox-3.3.0.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://apertium.sourceforge.net
+RDEPEND=dev-libs/libxml2:2

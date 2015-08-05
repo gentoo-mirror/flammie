@@ -1,0 +1,13 @@
+_eclasses_=
+_md5_=d58114e295477a7da2e7b333a9e4ba05
+SLOT=0
+DEFINED_PHASES=configure
+EAPI=5
+DEPEND=zip? ( >=app-arch/libarchive-3 ) zip? ( xml? ( >dev-cpp/libxmlpp-2.6 ) ) test? ( sci-misc/hfst ) zip? ( virtual/pkgconfig ) xml? ( virtual/pkgconfig )
+DESCRIPTION=Small spell-checker library and tools based on FST technology
+LICENSE=Apache-2.0
+IUSE=+zip +xml test
+SRC_URI=mirror://sourceforge/hfst/hfstospell-0.3.0.tar.gz
+KEYWORDS=~amd64
+HOMEPAGE=http://hfst.sourceforge.net/
+RDEPEND=zip? ( >=app-arch/libarchive-3 ) zip? ( xml? ( >dev-cpp/libxmlpp-2.6 ) )
