@@ -7,4 +7,4 @@ sci-misc/lttoolbox 3.3.0: Toolbox for lexical processing, morphological analysis
 sci-misc/openfst 1.4.1: Google's open-source FST implementation
 sci-misc/opengrm-ngram 1.2.1: Google's open source finite-state n-gram models
 sci-misc/praat 5.4.04: Speech analysis and synthesis
-sci-misc/vislcg3 0.9.9.10730 0.9.9.10800 0.9.9.10822: Free parser and runner for Constraint Grammars
+sci-misc/vislcg3 0.9.9.10730 0.9.9.10800 0.9.9.11024: Free parser and runner for Constraint Grammars
