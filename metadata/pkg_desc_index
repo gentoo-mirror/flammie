@@ -1,10 +1,10 @@
-app-dicts/apertium-fin 9999: Finnish dictionary for apertium
-app-text/hfst-ospell 0.3.0: Small spell-checker library and tools based on FST technology
-sci-misc/apertium 3.3.0: Shallow-transfer machine Translation engine and toolbox
-sci-misc/apertium-lex-tools 0.1.0: Lexical selection utilities for apertium toolchain
-sci-misc/hfst 3.8.1 3.8.2 3.8.3: Helsinki Finite-State Technology libraries and tools
-sci-misc/lttoolbox 3.3.0: Toolbox for lexical processing, morphological analysis and generation of words
-sci-misc/openfst 1.4.1: Google's open-source FST implementation
-sci-misc/opengrm-ngram 1.2.1: Google's open source finite-state n-gram models
-sci-misc/praat 5.4.04: Speech analysis and synthesis
-sci-misc/vislcg3 0.9.9.10730 0.9.9.10800 0.9.9.11024: Free parser and runner for Constraint Grammars
+app-dicts/apertium-fin 9999: 
+app-text/hfst-ospell 0.3.0: 
+sci-misc/apertium 3.3.0: 
+sci-misc/apertium-lex-tools 0.1.0: 
+sci-misc/hfst 3.8.1 3.8.2 3.8.3: 
+sci-misc/lttoolbox 3.3.0: 
+sci-misc/openfst 1.4.1: 
+sci-misc/opengrm-ngram 1.2.1: 
+sci-misc/praat 5.4.04: 
+sci-misc/vislcg3 0.9.9.10730 0.9.9.10800 0.9.9.11024: 
