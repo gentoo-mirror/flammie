@@ -7,6 +7,6 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=dev-libs/libxslt dev-libs/libpcre[cxx] >=sci-misc/lttoolbox-3.3 virtual/libiconv
 SLOT=0
-SRC_URI=mirror://sourceforge/apertium/apertium-3.3.0.tar.gz
+SRC_URI=mirror://sourceforge/apertium/apertium-3.4.0.tar.gz
 _eclass_exported_funcs=-
 _md5_=62cf6025bd09f62b45c4187d34db70d1
