@@ -9,5 +9,4 @@ LICENSE=Apache-2.0
 RDEPEND=zip? ( >=app-arch/libarchive-3 ) zip? ( xml? ( >dev-cpp/libxmlpp-2.6 ) )
 SLOT=0
 SRC_URI=mirror://sourceforge/hfst/hfstospell-0.3.0.tar.gz
-_eclass_exported_funcs=src_configure:-
 _md5_=d58114e295477a7da2e7b333a9e4ba05
