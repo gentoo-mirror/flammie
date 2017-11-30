@@ -1,15 +1,15 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-EAPI=5
+EAPI=6
 DISTUTILS_OPTIONAL=1
 PYTHON_COMPAT=( python{2_7,3_4} )
 inherit distutils-r1
 
 DESCRIPTION="Helsinki Finite-State Technology libraries and tools"
 HOMEPAGE="http://hfst.sf.net/"
-SRC_URI="mirror://sourceforge/${PN}/source/${P}.tar.gz"
+SRC_URI="https://github.com/hfst/hfst/releases/download/v${PV}/${P}.tar.gz"
 LICENSE="GPL-2 GPL-3 Apache-2.0"
 SLOT="0"
 KEYWORDS="~x86 ~amd64"
@@ -28,7 +28,7 @@ src_configure() {
 src_compile() {
 	default_src_compile
 	if use python ; then
-		cd "${S}/swig"
+		cd "${S}/python"
 		distutils-r1_src_compile
 	fi
 }
@@ -36,7 +36,7 @@ src_compile() {
 src_install() {
 	default_src_install
 	if use python ; then
-		cd "${S}/swig"
+		cd "${S}/python"
 		distutils-r1_src_install
 	fi
 }
