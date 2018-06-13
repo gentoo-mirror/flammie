@@ -1,10 +1,10 @@
 DEFINED_PHASES=configure unpack
-DEPEND=dev-libs/libxslt dev-libs/libpcre[cxx] >=sci-misc/lttoolbox-3.3 virtual/libiconv virtual/pkgconfig >=dev-vcs/git-1.8.2.1
+DEPEND=dev-libs/libxslt dev-libs/libpcre[cxx] >=sci-misc/lttoolbox-3.3 virtual/libiconv virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Shallow-transfer machine Translation engine and toolbox
 EAPI=6
 HOMEPAGE=http://apertium.sourceforge.net/
 LICENSE=GPL-2
 RDEPEND=dev-libs/libxslt dev-libs/libpcre[cxx] >=sci-misc/lttoolbox-3.3 virtual/libiconv
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
 _md5_=a5337e4af6e3e5b588496914693c428c
