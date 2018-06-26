@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure
+DEPEND=zip? ( >=app-arch/libarchive-3 ) zip? ( xml? ( dev-cpp/libxmlpp:2.6 ) ) test? ( sci-misc/hfst ) zip? ( virtual/pkgconfig ) xml? ( virtual/pkgconfig )
+DESCRIPTION=Small spell-checker library and tools based on FST technology
+EAPI=6
+HOMEPAGE=https://hfst.github.io/
+IUSE=+zip +xml test
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=zip? ( >=app-arch/libarchive-3 ) zip? ( xml? ( dev-cpp/libxmlpp:2.6 ) )
+SLOT=0
+SRC_URI=https://github.com/hfst/hfst-ospell/releases/download/v0.5.0/hfstospell-0.5.0.tar.gz
+_md5_=979dbfe18ea145fddfdf460e4dce9147
