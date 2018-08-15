@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=x11-libs/gtk+:2 media-fonts/sil-charis media-fonts/sil-doulos
 SLOT=0
 SRC_URI=http://www.fon.hum.uva.nl/praat/praat5404_sources.tar.gz
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	versionator	26ca8a8bd95d6a74122c08ba98a4ee72
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	versionator	2352c3fc97241f6a02042773c8287748
 _md5_=b6d1afce662cb243d9141fe5353446c4
