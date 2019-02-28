@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure
+DEPEND=zip? ( >=app-arch/libarchive-3 ) zip? ( xml? ( >dev-cpp/libxmlpp-2.6 ) ) <dev-libs/icu-61 test? ( sci-misc/hfst ) zip? ( virtual/pkgconfig ) xml? ( virtual/pkgconfig )
+DESCRIPTION=Small spell-checker library and tools based on FST technology
+EAPI=5
+HOMEPAGE=http://hfst.sourceforge.net/
+IUSE=+zip +xml test
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=zip? ( >=app-arch/libarchive-3 ) zip? ( xml? ( >dev-cpp/libxmlpp-2.6 ) ) <dev-libs/icu-61
+SLOT=0
+SRC_URI=mirror://sourceforge/hfst/hfstospell-0.3.0.tar.gz
+_md5_=43e43790a72b8b46fa3db358b8740987
