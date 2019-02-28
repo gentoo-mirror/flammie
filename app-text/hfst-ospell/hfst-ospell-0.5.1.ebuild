@@ -1,7 +1,7 @@
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 MY_P="hfstospell-${PV}"
 DESCRIPTION="Small spell-checker library and tools based on FST technology"
@@ -10,11 +10,12 @@ SRC_URI="https://github.com/hfst/hfst-ospell/releases/download/v${PV}/${MY_P}.ta
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm"
 IUSE="+zip +xml test"
 
 COMMON_DEPEND="zip? ( >=app-arch/libarchive-3 )
-	zip? ( xml? ( dev-cpp/libxmlpp:2.6 ) )"
+	zip? ( xml? ( dev-cpp/libxmlpp:2.6 ) )
+	dev-libs/icu"
 DEPEND="${COMMON_DEPEND}
 	test? ( sci-misc/hfst )
 	zip? ( virtual/pkgconfig )
