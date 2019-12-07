@@ -8,5 +8,5 @@ LICENSE=GPL-3+
 PROPERTIES=live
 RDEPEND=>=sci-misc/apertium-3.5.2 >=sci-misc/lttoolbox-3.5
 SLOT=0
-_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
+_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd
 _md5_=a9a76418cced8fe42d64f1a7def6426c
