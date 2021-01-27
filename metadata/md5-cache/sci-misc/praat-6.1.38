@@ -1,0 +1,11 @@
+DEFINED_PHASES=install prepare
+DEPEND=x11-libs/gtk+:3 dev-libs/atk dev-libs/glib media-libs/fontconfig media-libs/freetype media-libs/opusfile x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/pango
+DESCRIPTION=Speech analysis and synthesis
+EAPI=6
+HOMEPAGE=http://praat.org/
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=x11-libs/gtk+:3 dev-libs/atk dev-libs/glib media-libs/fontconfig media-libs/freetype media-libs/opusfile x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/pango media-fonts/sil-charis media-fonts/sil-doulos
+SLOT=0
+SRC_URI=https://github.com/praat/praat/archive/v6.1.38.tar.gz
+_md5_=46ce583c6b825afa634d76e4589a15b5
