@@ -3,10 +3,11 @@ DEPEND=>=sci-misc/apertium-3.5.2 >=sci-misc/lttoolbox-3.5 >=dev-vcs/git-1.8.2.1[
 DESCRIPTION=Apertium module for separable words
 EAPI=6
 HOMEPAGE=https://wiki.apertium.org/
+INHERIT=git-r3
 KEYWORDS=~amd64
 LICENSE=GPL-3+
 PROPERTIES=live
 RDEPEND=>=sci-misc/apertium-3.5.2 >=sci-misc/lttoolbox-3.5
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=a9a76418cced8fe42d64f1a7def6426c

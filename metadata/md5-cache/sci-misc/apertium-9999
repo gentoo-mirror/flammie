@@ -3,9 +3,10 @@ DEPEND=dev-libs/libxslt dev-libs/libpcre[cxx] >=sci-misc/lttoolbox-3.3 virtual/l
 DESCRIPTION=Shallow-transfer machine Translation engine and toolbox
 EAPI=6
 HOMEPAGE=http://apertium.sourceforge.net/
+INHERIT=git-r3
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=dev-libs/libxslt dev-libs/libpcre[cxx] >=sci-misc/lttoolbox-3.3 virtual/libiconv
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=a5337e4af6e3e5b588496914693c428c
