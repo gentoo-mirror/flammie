@@ -8,7 +8,6 @@ sci-misc/apertium-separable 0.3.1 0.3.2 9999: Apertium module for separable word
 sci-misc/hfst 3.15.2 3.15.4: Helsinki Finite-State Technology libraries and tools
 sci-misc/kenlm 1: Estimates, filters, and queries language models
 sci-misc/lttoolbox 3.5.0 3.5.3 9999: Toolbox for lexical processing, morphological analysis and generation of words
-sci-misc/ocamorph 9999: Hungarian morphological analyser written in ocaml
 sci-misc/openfst 1.4.1: Google's open-source FST implementation
 sci-misc/opengrm-ngram 1.2.1: Google's open source finite-state n-gram models
 sci-misc/praat 6.1.38: Speech analysis and synthesis
