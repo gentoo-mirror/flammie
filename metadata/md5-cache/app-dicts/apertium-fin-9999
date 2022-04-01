@@ -1,0 +1,13 @@
+BDEPEND=dev-vcs/subversion[http(+)] net-misc/rsync
+DEFINED_PHASES=preinst unpack
+DEPEND=>=sci-misc/apertium-3.3 >=sci-misc/lttoolbox-3.3 >=sci-misc/hfst-3.8
+DESCRIPTION=Finnish dictionary for apertium
+EAPI=7
+HOMEPAGE=http://apertium.sf.net/
+INHERIT=subversion
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=>=sci-misc/apertium-3.3 >=sci-misc/lttoolbox-3.3 >=sci-misc/hfst-3.8
+SLOT=0
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	subversion	dee31e56422214d05644c2a3c900a148
+_md5_=70c46577150e62b1679847d67e2a7b67
