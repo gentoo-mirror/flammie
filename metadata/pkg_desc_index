@@ -3,7 +3,7 @@ app-dicts/apertium-eng 9999: English dictionary for apertium
 app-dicts/apertium-fin 9999: Finnish dictionary for apertium
 dev-tex/LaTeXML 0.8.5 0.8.6: A modern (La)TeX to XML/HTML conversion tool
 sci-misc/apertium 3.7.1 3.8.0 3.8.1 9999: Shallow-transfer machine Translation engine and toolbox
-sci-misc/apertium-lex-tools 0.2.7 0.3.0: Lexical selection utilities for apertium toolchain
+sci-misc/apertium-lex-tools 0.2.7 0.3.0 0.3.1: Lexical selection utilities for apertium toolchain
 sci-misc/apertium-recursive 1.1.0: Toolbox for recursive syntaxes
 sci-misc/apertium-separable 0.3.2 0.5.0 9999: Apertium module for separable words
 sci-misc/hfst 3.15.2 3.15.4 3.16.0: Helsinki Finite-State Technology libraries and tools
