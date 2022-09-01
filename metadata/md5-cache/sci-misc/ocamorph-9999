@@ -4,12 +4,11 @@ DEPEND=dev-lang/ocaml dev-ml/findlib >=dev-ml/findlib-1.0.4-r1[ocamlopt?]
 DESCRIPTION=Hungarian morphological analyser written in ocaml
 EAPI=7
 HOMEPAGE=http://mokk.bme.hu/resources/hunmorph/
-INHERIT=eutils cvs findlib
+INHERIT=cvs findlib
 IUSE=+ocamlopt
-KEYWORDS=~amd64 ~x86
 LICENSE=CC-BY-2.5
 PROPERTIES=live
 RDEPEND=dev-lang/ocaml:=[ocamlopt?]
 SLOT=0
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	cvs	fc93b679c00e5086a6a34805e84cc289	findlib	d8fa93cf137156660d0b72144b1e31d9
-_md5_=5492c39a440688f71173d1e0d11d78a3
+_eclasses_=cvs	fc93b679c00e5086a6a34805e84cc289	findlib	d8fa93cf137156660d0b72144b1e31d9
+_md5_=16534fc0a8f80cef8e1607030aa5c68f

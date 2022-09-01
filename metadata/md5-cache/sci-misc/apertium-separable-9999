@@ -4,10 +4,9 @@ DESCRIPTION=Apertium module for separable words
 EAPI=6
 HOMEPAGE=https://wiki.apertium.org/
 INHERIT=git-r3
-KEYWORDS=~amd64
 LICENSE=GPL-3+
 PROPERTIES=live
 RDEPEND=>=sci-misc/apertium-3.5.2 >=sci-misc/lttoolbox-3.5
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=53a7944b5bb29b82a30722d63d519edf
+_md5_=8e720c0b713377fb6fb6c82477751bb2
