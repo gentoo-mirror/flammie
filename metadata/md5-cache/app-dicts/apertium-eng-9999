@@ -9,5 +9,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=>=sci-misc/apertium-3.3 >=sci-misc/lttoolbox-3.3 >=sci-misc/hfst-3.8
 SLOT=0
-_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	subversion	a98eebf2efc83b38f8d1982b8a522e75
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	subversion	44c6a1cae0381c100a526e3b348622cd
 _md5_=520785308ea2bbb074f9af7cc81cc1df
