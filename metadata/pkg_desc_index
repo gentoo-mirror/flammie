@@ -1,7 +1,6 @@
 app-dicts/apertium-deu 9999: Finnish dictionary for apertium
 app-dicts/apertium-eng 9999: English dictionary for apertium
 app-dicts/apertium-fin 9999: Finnish dictionary for apertium
-dev-tex/LaTeXML 0.8.5 0.8.6: A modern (La)TeX to XML/HTML conversion tool
 sci-misc/apertium 3.8.0 3.8.1 3.8.2 3.8.3 9999: Shallow-transfer machine Translation engine and toolbox
 sci-misc/apertium-anaphora 1.1.1: Apertium tool for anaphora handling
 sci-misc/apertium-lex-tools 0.4.1 0.4.2: Lexical selection utilities for apertium toolchain
@@ -14,7 +13,6 @@ sci-misc/lexd 1.3.1: Compiler for linguistic lexicons
 sci-misc/lttoolbox 3.7.0 3.7.1 9999: Toolbox for lexical processing, morphological analysis and generation of words
 sci-misc/ocamorph 9999: Hungarian morphological analyser written in ocaml
 sci-misc/openfst 1.4.1: Google's open-source FST implementation
-sci-misc/opengrm-ngram 1.2.1: Google's open source finite-state n-gram models
 sci-misc/praat 6.1.38 6.3.04: Speech analysis and synthesis
 sci-misc/vislcg3 1.3.1 1.3.6 1.3.7 1.3.9 1.4.5 9999: Free parser and runner for Constraint Grammars
 x11-misc/gxkb 0.8.2: X11 keyboard indicator and switcher
