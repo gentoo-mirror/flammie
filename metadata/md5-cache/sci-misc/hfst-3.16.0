@@ -1,16 +1,16 @@
 BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
 DEFINED_PHASES=compile configure install prepare
-DEPEND=>=sys-devel/flex-2.5.35 >=sys-devel/bison-2.4 python? ( python_targets_python3_10? ( dev-lang/python:3.10 ) )
+DEPEND=>=sys-devel/flex-2.5.35 >=sys-devel/bison-2.4 python? ( python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) )
 DESCRIPTION=Helsinki Finite-State Technology libraries and tools
 EAPI=7
 HOMEPAGE=http://hfst.sf.net/
 INHERIT=distutils-r1 autotools
-IUSE=minimal python python_targets_python3_10
+IUSE=minimal python python_targets_python3_10 python_targets_python3_11
 KEYWORDS=~amd64
 LICENSE=GPL-2 GPL-3 Apache-2.0
-RDEPEND=python? ( python_targets_python3_10? ( dev-lang/python:3.10 ) )
-REQUIRED_USE=|| ( python_targets_python3_10 )
+RDEPEND=python? ( python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) )
+REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 )
 SLOT=0
 SRC_URI=https://github.com/hfst/hfst/releases/download/v3.16.0/hfst-3.16.0.tar.bz2
 _eclasses_=toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	be27a904c614cb93ae037762dc69bcc2	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	59e60e9c5cbd3f214d7f1002e798b387	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	distutils-r1	a93df67775ff86e107e56c6a6e68cf4e	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde
-_md5_=1b5b7ac3a961874666f5ba1b0c25eda4
+_md5_=6337da5d6bfa30f94ee92b3f2d80f3f6
