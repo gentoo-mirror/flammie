@@ -17,4 +17,4 @@ sci-misc/openfst 1.4.1: Google's open-source FST implementation
 sci-misc/opengrm-ngram 1.2.1: Google's open source finite-state n-gram models
 sci-misc/praat 6.1.38 6.3.04: Speech analysis and synthesis
 sci-misc/vislcg3 1.3.1 1.3.6 1.3.7 1.3.9 1.4.5 9999: Free parser and runner for Constraint Grammars
-x11-misc/gxkb 0.8.2: X11 keyboard indicator and switcher
+x11-misc/gxkb 0.9.4: X11 keyboard indicator and switcher
