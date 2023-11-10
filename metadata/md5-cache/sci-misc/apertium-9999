@@ -8,5 +8,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=dev-libs/libxslt dev-libs/libpcre[cxx] >=sci-misc/lttoolbox-3.3 virtual/libiconv
 SLOT=0
-_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
 _md5_=a5337e4af6e3e5b588496914693c428c
