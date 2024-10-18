@@ -10,5 +10,5 @@ LICENSE=CC-BY-2.5
 PROPERTIES=live
 RDEPEND=dev-lang/ocaml:=[ocamlopt?]
 SLOT=0
-_eclasses_=cvs	9f4e8d0ccfe320d03725d1f7e66762cb	findlib	49d5365fca4dea46f13825b9d763c89e
+_eclasses_=cvs	8ded8f3047b73d2580ba7da2e86d1a87	findlib	49d5365fca4dea46f13825b9d763c89e
 _md5_=16534fc0a8f80cef8e1607030aa5c68f
