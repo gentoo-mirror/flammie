@@ -10,12 +10,12 @@ sci-misc/apertium-lex-tools 0.4.1 0.4.2: Lexical selection utilities for apertiu
 sci-misc/apertium-recursive 1.1.0 1.1.2: Toolbox for recursive syntaxes
 sci-misc/apertium-regtest 0.9.1: Apertium tool for regression testing dictionaries
 sci-misc/apertium-separable 0.6.1: Toolbox for separable words
-sci-misc/hfst 3.16.0: Helsinki Finite-State Technology libraries and tools
+sci-misc/hfst 3.16.0 3.16.1: Helsinki Finite-State Technology libraries and tools
 sci-misc/kenlm 1: Estimates, filters, and queries language models
 sci-misc/lexd 1.3.1: Compiler for linguistic lexicons
 sci-misc/lttoolbox 3.7.0 3.7.1 3.7.6: Toolbox for lexical processing, morphological analysis and generation of words
 sci-misc/ocamorph 9999: Hungarian morphological analyser written in ocaml
-sci-misc/openfst 1.4.1: Google's open-source FST implementation
+sci-misc/openfst 1.7.9: Google's open-source FST implementation
 sci-misc/opengrm-ngram 1.2.1: Google's open source finite-state n-gram models
 sci-misc/praat 6.1.38 6.3.04: Speech analysis and synthesis
 sci-misc/vislcg3 1.3.1 1.3.6 1.3.7 1.3.9 1.4.5 1.4.6 9999: Free parser and runner for Constraint Grammars
