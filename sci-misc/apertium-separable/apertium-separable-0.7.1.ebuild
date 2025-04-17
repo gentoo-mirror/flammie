@@ -3,19 +3,18 @@
 
 EAPI=7
 inherit autotools
-DESCRIPTION="Shallow-transfer machine Translation engine and toolbox"
-HOMEPAGE="http://apertium.sourceforge.net/"
-SRC_URI="https://github.com/${PN}/${PN}/releases/download/v${PV}/${P}.tar.bz2"
 
-SLOT="0"
+DESCRIPTION="Toolbox for separable words"
+HOMEPAGE="http://apertium.sourceforge.net"
+SRC_URI="https://github.com/apertium/apertium-separable/releases/download/v${PV}/${P}.tar.bz2"
+
 LICENSE="GPL-2"
+SLOT="0"
 KEYWORDS="~amd64 ~x86"
+IUSE=""
 
 COMMON_DEPEND="dev-libs/utfcpp
-	dev-libs/libxslt
-	dev-libs/libpcre[cxx]
-	>=sci-misc/lttoolbox-3.3
-	virtual/libiconv"
+	dev-libs/libxml2:2"
 RDEPEND="${COMMON_DEPEND}"
 DEPEND="${COMMON_DEPEND}
 	virtual/pkgconfig"
