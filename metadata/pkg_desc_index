@@ -3,6 +3,7 @@ app-dicts/apertium-eng 9999: English dictionary for apertium
 app-dicts/apertium-fin 9999: Finnish dictionary for apertium
 app-office/libreoffice-divvun 9999: LO plugin for grammar-checking and correction with divvunspell
 app-text/libdivvun 0.3.10: Language technology tool library from Divvun
+dev-python/morph-test 0.1.0: test util for finite state morphologies
 dev-python/pyhfst 1.3.0: pure python bindings to HFST
 dev-tex/LaTeXML 0.8.6 0.8.8: A modern (La)TeX to XML/HTML conversion tool
 sci-misc/apertium 3.9.4 3.9.12: Shallow-transfer machine Translation engine and toolbox
